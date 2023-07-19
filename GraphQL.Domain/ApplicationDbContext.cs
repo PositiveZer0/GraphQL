@@ -14,8 +14,7 @@ namespace GraphQL.Domain
         {
         }
 
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
 
